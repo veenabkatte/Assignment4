@@ -6,7 +6,11 @@ namespace Assignment4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Student st = new Student(2, "Veena", "female", 12345678);
+            Console.WriteLine(st.Display());
+
+            Console.ReadLine();
+
         }
     }
 }
